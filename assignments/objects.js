@@ -67,13 +67,16 @@ console.log(inter5.gender);
 // console.log(kennan.speak());
 console.log("Hello my name is " + inter3.name +"!");
 //or
-inter2.speak = function toSpeak() {
-  return "Hello, my name is "+ inter2.name;
+
+inter2.speak= function toSpeak(){
+  return "Hello, my name is "+inter2.name;
 }
 console.log(inter2.speak());
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
 //console.log(antonietta.multiplyNums(3,4));
-inter5.multiplyNums = (num1, num2) => (num1 * num2);
+
+inter5.multiplyNums= (num1,num2) => (num1*num2);
+
 
 console.log(inter5.multiplyNums(3,4));
 // === Great work! === Head over to the the arrays.js file or take a look at the stretch challenge
@@ -85,3 +88,8 @@ console.log(inter5.multiplyNums(3,4));
 // 3. Nest a grandchild object in the child object with properties for name and age.  The name will be Sam and the age will be 30
 // 4. Give each of the objects the ability to speak their names using the this keyword.
 
+
+const Parent= {
+  "name": "Susan",
+  "age": 70
+}
